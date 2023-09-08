@@ -1,13 +1,13 @@
 import FooterCTA from "@modules/layout/components/footer-cta"
 import FooterNav from "@modules/layout/components/footer-nav"
-import MedusaCTA from "@modules/layout/components/medusa-cta"
+import PMLCTA from "@modules/layout/components/pml-cta"
 
 const Footer = () => {
   return (
     <footer>
       <FooterCTA />
       <FooterNav />
-      <MedusaCTA />
+      <PMLCTA />
     </footer>
   )
 }
